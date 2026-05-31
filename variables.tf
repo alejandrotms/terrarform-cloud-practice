@@ -44,11 +44,6 @@ variable "ingress_ports_list"{
     type = list(number)
 }
 
-variable "availability_zones" {
-    description = "Lista de zonas de disponibilidad"
-    type = list(string)
-}
-
 variable "access_key" {
     description = "AWS Access key"
 }

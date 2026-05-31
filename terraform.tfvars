@@ -22,6 +22,5 @@ ec2_specs = {
     ami_id = "ami-0cca150d127c2216f" # Amazon Linux 2 AMI (HVM), SSD Volume Type
 }
 
-availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
 
 ingress_ports_list = [22, 80, 443]
